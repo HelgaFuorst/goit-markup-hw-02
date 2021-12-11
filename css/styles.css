@@ -6,7 +6,8 @@ body {
   height: 1880px;
   background: #ffffff;
 }
-
+/*header*/
+/*Navigation*/
 .site-navigation a {
   color: #212121;
 }
@@ -14,6 +15,7 @@ body {
 .site-navigation:focus a {
   color: #2196f3;
 }
+/*Logotyp*/
 .web,
 .studio {
   font-family: Raleway;
