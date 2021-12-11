@@ -1,23 +1,39 @@
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-  position: relative;
-  width: 1600px;
-  height: 1880px;
-  background: #ffffff;
+  color: var(--primary-text-color);
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* img робим блочним */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  /* Забераєм декоративні лінії */
+  text-decoration: none;
+  /* Забераєм декоративні лінії */
+  display: inline-block;
+}
+
+/* Забераєм вид маркера та відступи*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 /*header*/
 /*Navigation*/
-.site-navigation a {
-  color: #212121;
-}
-.site-navigation:hover a,
-.site-navigation:focus a {
-  color: #2196f3;
-}
+
 /*Logotyp*/
 .web,
 .studio {
+  text-decoration: none;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -29,4 +45,11 @@ body {
 }
 .studio {
   color: #000000;
+}
+.nav__text {
+  color: black;
+}
+.nav__text:hover,
+.nav__text:focus {
+  color: #2196f3;
 }
