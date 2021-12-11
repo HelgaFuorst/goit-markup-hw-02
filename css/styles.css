@@ -17,7 +17,7 @@ img {
 a {
   /* Забираем декоративные линии */
   text-decoration: none;
-  /* Забераєм декоративні лінії */
+  /* Забираем декоративные линии */
   display: inline-block;
 }
 
@@ -29,7 +29,6 @@ ul {
 }
 /*header*/
 /*Navigation*/
-
 /*Logotyp*/
 .web,
 .studio {
@@ -53,7 +52,87 @@ ul {
 .nav__text:focus {
   color: #2196f3;
 }
-
+.contacts-head {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contacts-head:hover,
+.contacts-head:focus {
+  color: #2196f3;
+}
+/*Студия*/
+/*Баннер*/
+.banner {
+  background: #2f303a;
+}
+.main-studio-header {
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.banner-button {
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+  letter-spacing: 0.06em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #2196f3;
+}
+/*Основные принципы*/
+.main-princeples {
+}
+.second-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.principles-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Чем мы занимаемся*/
+.section-header-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 /*Портфолио*/
 .project-name {
   color: #212121;
