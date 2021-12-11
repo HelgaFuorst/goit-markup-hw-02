@@ -7,7 +7,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* img робим блочним */
+/* img делаем блочным */
 img {
   display: block;
   max-width: 100%;
@@ -15,13 +15,13 @@ img {
 }
 
 a {
-  /* Забераєм декоративні лінії */
+  /* Забираем декоративные линии */
   text-decoration: none;
   /* Забераєм декоративні лінії */
   display: inline-block;
 }
 
-/* Забераєм вид маркера та відступи*/
+/* Забираем вид маркера и отступи*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -52,4 +52,23 @@ ul {
 .nav__text:hover,
 .nav__text:focus {
   color: #2196f3;
+}
+
+/*Портфолио*/
+.project-name {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.signature-gray {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
