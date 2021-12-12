@@ -1,3 +1,11 @@
+/* Цвет основного текста #212121*/
+/* Вторичный цвет текста #757575*/
+/* Цвет действия #2196F3*/
+/* Белый цвет текста #FFFFFF*/
+/* Основной фон #ffffff*/
+/* Вторичный фон #E5E5E5; */
+/* Дополнительный фон #2F303A; */
+
 body {
   color: var(--primary-text-color);
   font-family: "roboto", sans-serif;
@@ -5,6 +13,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  background-color: #ffffff;
 }
 
 /* img делаем блочным */
@@ -13,7 +22,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+/*  */
 a {
   /* Забираем декоративные линии */
   text-decoration: none;
@@ -21,7 +30,7 @@ a {
   display: inline-block;
 }
 
-/* Забираем вид маркера и отступи*/
+/* Забираем вид маркера и отступы*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -49,12 +58,12 @@ ul {
   color: black;
 }
 .nav__text:hover,
-.nav__text:focus {
+.nav__text:focus,
+.nav__text:active {
   color: #2196f3;
 }
-.contacts-head {
+.contacts {
   text-decoration: none;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -62,21 +71,24 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contacts-head:hover,
-.contacts-head:focus {
+.contacts:hover,
+.contacts:focus {
   color: #2196f3;
 }
+.mail-contact
 /*Студия*/
 /*Баннер*/
 .banner {
-  background: #2f303a;
+  background-color: #2f303a;
+}
+.banner-color {
+  background-color: #2f303a;
 }
 .main-studio-header {
   width: 696px;
   height: 120px;
   left: 452px;
   top: 280px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -92,7 +104,6 @@ ul {
   left: 732px;
   top: 440px;
   letter-spacing: 0.06em;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -103,10 +114,8 @@ ul {
   background: #2196f3;
 }
 /*Основные принципы*/
-.main-princeples {
-}
+
 .second-header {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -114,7 +123,6 @@ ul {
   color: #212121;
 }
 .principles-description {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -124,7 +132,6 @@ ul {
 }
 /*Чем мы занимаемся*/
 .section-header-text {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -133,10 +140,56 @@ ul {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.worker-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Подвал*/
+.basment {
+  background: #2f303a;
+}
+.street-address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts-basment {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.studio-basment {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
 /*Портфолио*/
 .project-name {
   color: #212121;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -145,7 +198,6 @@ ul {
 
 .signature-gray {
   color: #757575;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
