@@ -1,5 +1,7 @@
+/* Палитра */
 /* Цвет основного текста #212121*/
 /* Вторичный цвет текста #757575*/
+/* Троичный цвет текста rgba(255, 255, 255, 0.6); */
 /* Цвет действия #2196F3*/
 /* Белый цвет текста #FFFFFF*/
 /* Основной фон #ffffff*/
@@ -17,13 +19,13 @@ body {
 }
 
 /* img делаем блочным */
-img {
+.img-block {
   display: block;
   max-width: 100%;
   height: auto;
 }
 /*  */
-a {
+.no-lines {
   /* Забираем декоративные линии */
   text-decoration: none;
   /* Забираем декоративные линии */
@@ -31,12 +33,12 @@ a {
 }
 
 /* Забираем вид маркера и отступы*/
-ul {
+.no-dote {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/*header*/
+/*Шапка*/
 /*Navigation*/
 /*Logotyp*/
 .web,
@@ -58,8 +60,7 @@ ul {
   color: black;
 }
 .nav__text:hover,
-.nav__text:focus,
-.nav__text:active {
+.nav__text:focus {
   color: #2196f3;
 }
 .contacts {
