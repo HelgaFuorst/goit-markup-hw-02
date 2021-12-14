@@ -9,7 +9,7 @@
 /* Дополнительный фон #2F303A; */
 
 body {
-  color: var(--primary-text-color);
+  color: #212121;
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -45,10 +45,9 @@ body {
 .studio {
   text-decoration: none;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
 }
 .web {
   color: #2196f3;
@@ -57,7 +56,7 @@ body {
   color: #000000;
 }
 .nav__text {
-  color: black;
+  color: #212121;
 }
 .nav__text:hover,
 .nav__text:focus {
@@ -68,7 +67,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -90,10 +89,9 @@ body {
   height: 120px;
   left: 452px;
   top: 280px;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -105,10 +103,9 @@ body {
   left: 732px;
   top: 440px;
   letter-spacing: 0.06em;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   align-items: center;
   text-align: center;
   color: #ffffff;
@@ -117,44 +114,34 @@ body {
 /*Основные принципы*/
 
 .second-header {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  color: #212121;
+  line-height: 1.14;
 }
 .principles-description {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 /*Чем мы занимаемся*/
 .section-header-text {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .worker-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .position {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -164,43 +151,38 @@ body {
   background: #2f303a;
 }
 .street-address {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .contacts-basment {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.contacts-basment:hover,
+.contacts-basment:focus {
+  color: #2196f3;
+}
 .studio-basment {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 /*Портфолио*/
 .project-name {
-  color: #212121;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 
 .signature-gray {
   color: #757575;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 2;
 }
