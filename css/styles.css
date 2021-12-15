@@ -161,12 +161,17 @@ body {
 .basment {
   background: #2f303a;
 }
-.street-address {
+
+.address-activity {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
+}
+.address-activity:hover,
+.address-activity:focus {
+  color: var(--brand-color);
 }
 .contacts-basment {
   font-style: normal;
